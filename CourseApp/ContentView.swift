@@ -78,7 +78,7 @@ struct ContentView: View {
                     self.viewState = value.translation
                     self.show = true
                 }
-                .onEnded { value in
+                .onEnded { _ in
                     self.viewState = .zero
                     self.show = false
                 }
@@ -101,7 +101,7 @@ struct ContentView: View {
                         self.bottomState.height = -300
                     }
                 }
-                .onEnded { value in
+                .onEnded { _ in
                     if self.bottomState.height > 50 {
                         self.showCard = false
                     }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4C4CC3B025DC941D00DE818D /* CourseListSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4CC3AF25DC941D00DE818D /* CourseListSimple.swift */; };
+		4C7B2C3F2627C95A00314AD6 /* ScreeShots in Resources */ = {isa = PBXBuildFile; fileRef = 4C7B2C3E2627C95A00314AD6 /* ScreeShots */; };
+		4C7B2C422627C97C00314AD6 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C7B2C412627C97C00314AD6 /* .swiftlint.yml */; };
 		964310FB23E381280067B75E /* CourseDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964310FA23E381280067B75E /* CourseDetail.swift */; };
 		964422AB23E4B40C0006D5AE /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964422AA23E4B40C0006D5AE /* Data.swift */; };
 		964422AD23E4B99E0006D5AE /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964422AC23E4B99E0006D5AE /* PostList.swift */; };
@@ -41,11 +43,12 @@
 		96E5E78423BF44540001F9A8 /* WorkSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E5E77A23BF44540001F9A8 /* WorkSans-Thin.ttf */; };
 		96E5E78523BF44540001F9A8 /* WorkSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E5E77B23BF44540001F9A8 /* WorkSans-Black.ttf */; };
 		96E5E78623BF44540001F9A8 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96E5E77C23BF44540001F9A8 /* WorkSans-Bold.ttf */; };
-		96E5E78C23C45B100001F9A8 /* CourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5E78B23C45B100001F9A8 /* CourseList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C4CC3AF25DC941D00DE818D /* CourseListSimple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListSimple.swift; sourceTree = "<group>"; };
+		4C7B2C3E2627C95A00314AD6 /* ScreeShots */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ScreeShots; sourceTree = "<group>"; };
+		4C7B2C412627C97C00314AD6 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		964310FA23E381280067B75E /* CourseDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetail.swift; sourceTree = "<group>"; };
 		964422AA23E4B40C0006D5AE /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		964422AC23E4B99E0006D5AE /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
@@ -79,7 +82,6 @@
 		96E5E77A23BF44540001F9A8 /* WorkSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Thin.ttf"; sourceTree = "<group>"; };
 		96E5E77B23BF44540001F9A8 /* WorkSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Black.ttf"; sourceTree = "<group>"; };
 		96E5E77C23BF44540001F9A8 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
-		96E5E78B23C45B100001F9A8 /* CourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,9 @@
 		9656274523A814D3003B2888 = {
 			isa = PBXGroup;
 			children = (
+				4C7B2C412627C97C00314AD6 /* .swiftlint.yml */,
 				9656275023A814D3003B2888 /* CourseApp */,
+				4C7B2C3E2627C95A00314AD6 /* ScreeShots */,
 				9656274F23A814D3003B2888 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +125,6 @@
 				96E5E77023BF16FB0001F9A8 /* Modifiers.swift */,
 				96E5E76023B5F92E0001F9A8 /* Home.swift */,
 				96E5E76223B620E80001F9A8 /* HomeView.swift */,
-				96E5E78B23C45B100001F9A8 /* CourseList.swift */,
 				4C4CC3AF25DC941D00DE818D /* CourseListSimple.swift */,
 				964422B323E4D8930006D5AE /* CourseStore.swift */,
 				964310FA23E381280067B75E /* CourseDetail.swift */,
@@ -178,6 +181,7 @@
 				9656274A23A814D3003B2888 /* Sources */,
 				9656274B23A814D3003B2888 /* Frameworks */,
 				9656274C23A814D3003B2888 /* Resources */,
+				4C7B2C442627C99500314AD6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -234,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C7B2C422627C97C00314AD6 /* .swiftlint.yml in Resources */,
 				96E5E78523BF44540001F9A8 /* WorkSans-Black.ttf in Resources */,
 				96E5E78323BF44540001F9A8 /* OFL.txt in Resources */,
 				96E5E78023BF44540001F9A8 /* WorkSans-ExtraLight.ttf in Resources */,
+				4C7B2C3F2627C95A00314AD6 /* ScreeShots in Resources */,
 				9656275E23A814D6003B2888 /* LaunchScreen.storyboard in Resources */,
 				9656275B23A814D6003B2888 /* Preview Assets.xcassets in Resources */,
 				9656275823A814D6003B2888 /* Assets.xcassets in Resources */,
@@ -251,6 +257,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C7B2C442627C99500314AD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9656274A23A814D3003B2888 /* Sources */ = {
@@ -276,7 +302,6 @@
 				4C4CC3B025DC941D00DE818D /* CourseListSimple.swift in Sources */,
 				968D68E523EA2729006C5803 /* BlurView.swift in Sources */,
 				96E5E76D23B8B5020001F9A8 /* TabBar.swift in Sources */,
-				96E5E78C23C45B100001F9A8 /* CourseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

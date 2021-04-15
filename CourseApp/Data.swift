@@ -9,13 +9,13 @@
 import SwiftUI
 
 struct Post: Codable, Identifiable {
-    let id = UUID()
+    var id = UUID()
     var title: String
     var body: String
 }
 
 class Api {
-    func getPosts(completion: @escaping ([Post]) -> ()) {
+    func getPosts(completion: @escaping ([Post]) -> Void) {
         guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else { return }
         
         URLSession.shared.dataTask(with: url) { (data, _, _) in

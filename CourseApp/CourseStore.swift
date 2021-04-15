@@ -12,7 +12,7 @@ import Combine
 
 let client = Client(spaceId: "91ajjfe77cdv", accessToken: "JMyaSKWctS0kzGYOMt8B47FIm5xKfBhazkO3DlObKP8")
 
-func getArray(id: String, completion: @escaping([Entry]) -> ()) {
+func getArray(id: String, completion: @escaping([Entry]) -> Void) {
     let query = Query.where(contentTypeId: id)
     
     client.fetchArray(of: Entry.self, matching: query) { result in

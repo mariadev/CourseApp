@@ -178,7 +178,7 @@ struct CourseView: View {
                 
                 self.activeView = value.translation
             }
-            .onEnded { value in
+            .onEnded { _ in
                 if self.activeView.height > 50 {
                     self.show = false
                     self.active = false
@@ -208,4 +208,3 @@ var courseData = [
     Course(title: "SwiftUI Advanced", subtitle: "20 Sections", image: URL(string: "https://dl.dropbox.com/s/i08umta02pa09ns/Card3%402x.png?dl=0")!, logo: #imageLiteral(resourceName: "Logo1"), color: #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1), show: false, hideX: true),
     Course(title: "UI Design for Developers", subtitle: "20 Sections", image: URL(string: "https://dl.dropbox.com/s/etdzsafqqeq0jjg/Card6%402x.png?dl=0")!, logo: #imageLiteral(resourceName: "Logo3"), color: #colorLiteral(red: 0.2588235438, green: 0.7568627596, blue: 0.9686274529, alpha: 1), show: false, hideX: true)
 ]
-

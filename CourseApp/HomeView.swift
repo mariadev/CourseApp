@@ -141,9 +141,6 @@ let sectionData = [
     Section(title: "SwiftUI Advanced", text: "20 Sections", logo: "Logo1", image: Image(uiImage: #imageLiteral(resourceName: "Card2")), color: Color(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)))
 ]
 
-
-
-
 struct WatchRingsView: View {
     var body: some View {
         HStack(spacing: 30) {
