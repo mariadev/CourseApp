@@ -12,4 +12,5 @@ App fully built using Apple's latest SwiftUI and Combine framework with beautifu
 
 <p float="left">
 <img src="https://github.com/mariadev/CourseApp/blob/main/ScreenShots/example1.gif">
+<img src="https://github.com/mariadev/CourseApp/blob/main/ScreenShots/example2.gif"
 </p>
