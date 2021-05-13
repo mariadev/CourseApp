@@ -30,8 +30,6 @@
 - Combine
 - SDWebImageSwiftUI
 - Contentful
-- Core Animation
-- Core Graphics
 
 ---
 ### What I Learned:
