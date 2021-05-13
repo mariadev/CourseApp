@@ -18,7 +18,7 @@
 
 ## Description
 
-- This project focus on the UI of mobile learning app. Is made using SwiftUI and beautiful design and animations. Inside this app the user has a profile space, a notification list with all the updates that he can delete, a screen where he can see his certifications and a ScrollView with the cours avaliables.
+- This project focuses on the UI of a mobile learning app. It is made using SwiftUI and a beautiful design with animations. Inside this app the user has a profile space, a notification list with all the updates that can be deleted, a screen where the user can see his certifications and a ScrollView with the cours avaliables.
 
 - Some of the content was added using Contentful. Contenful is API-first content management platform that gives content editors or clients a familiar web based user interface modify content inside the app without writing code.
 
