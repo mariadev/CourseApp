@@ -20,9 +20,9 @@
 
 - This project focus on the UI of mobile learning app. Is made using SwiftUI and beautiful design and animations. Inside this app the user has a profile space, a notification list with all the updates that he can delete, a screen where he can see his certifications and a ScrollView with the cours avaliables.
 
-- Some of the content was added using Contentful. Contenful is API-first content management platform that gives content editors or clients a familiar web based user interface modify content inside the app without writing code
+- Some of the content was added using Contentful. Contenful is API-first content management platform that gives content editors or clients a familiar web based user interface modify content inside the app without writing code.
 
-- Works with Dark / Light mode and all different device sizes
+- Works with Dark / Light mode and all different device sizes.
 
 #### Frameworks
 
@@ -48,7 +48,7 @@
 
 ## How To Use
 
-- Clone the project and run it on Xcode 11 or above
+- Clone the project and run it on Xcode 11 or above.
 ---
 
 ## Author Info
